@@ -89,7 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-# dist REMOVED DIST FOR GITHUB PAGES
+dist
 
 # Gatsby files
 .cache/
