@@ -1,6 +1,7 @@
 import { loadHomeTab } from "./homeTab";
 import { loadMenuTab } from "./menuTab";
 import { loadContactTab } from "./contactTab";
+import './style.css';
 
 const contentDiv = document.getElementById("content");
 
