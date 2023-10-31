@@ -1,0 +1,87 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arial', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header {
+    padding: 20px;
+    background-color: gray;
+}
+
+/* Home Tab */
+.home-content {
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.home-content > img, .contact-content > img {
+    border-radius: 10px;
+}
+
+.home-content > div, .contact-content > div {
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home-content p, .contact-content p {
+    font-size: 22px;
+}
+
+/* Menu Tab */
+
+.menu-content {
+    margin: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.dish {
+    padding: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dish img {
+    align-self: center;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Tab */
+.contact-content {
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+}
+
+.contact-content h2 {
+    font-size: 30px;
+}
+
+.contact-content > div {
+    gap: 2px;
+}
