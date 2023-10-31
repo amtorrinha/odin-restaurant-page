@@ -1,9 +1,11 @@
+import Restaurant from "./images/restaurant.jpg";
+
 const loadContactTab = () => {
     const contentDiv = document.getElementById("content");
 
     // Create the image
     const image = document.createElement("img");
-    image.src = "../src/images/restaurant.jpg";
+    image.src = Restaurant;
     image.alt = "Restaurant Image";
 
     // Create Contact Info

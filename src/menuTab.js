@@ -1,3 +1,7 @@
+import Spaghetti from "./images/spaghetti.jpg";
+import Salad from "./images/salad.jpg";
+import Pizza from "./images/pizza.jpg";
+
 const loadMenuTab = () => {
     const contentDiv = document.getElementById("content");
 
@@ -11,7 +15,7 @@ const loadMenuTab = () => {
     const spaghettiPrice = document.createElement("p");
     spaghettiPrice.textContent = "$12.99";
     const spaghettiImage = document.createElement("img");
-    spaghettiImage.src = "../src/images/spaghetti.jpg";
+    spaghettiImage.src = Spaghetti;
     spaghettiImage.alt = "Spaghetti Image";
     spaghettiDiv.appendChild(spaghettiHeading);
     spaghettiDiv.appendChild(spaghettiDescription);
@@ -27,7 +31,7 @@ const loadMenuTab = () => {
     const saladPrice = document.createElement("p");
     saladPrice.textContent = "$10.99";
     const saladImage = document.createElement("img");
-    saladImage.src = "../src/images/salad.jpg";
+    saladImage.src = Salad;
     saladImage.alt = "Salad Image";
     saladDiv.appendChild(saladHeading);
     saladDiv.appendChild(saladDescription);
@@ -43,7 +47,7 @@ const loadMenuTab = () => {
     const pizzaPrice = document.createElement("p");
     pizzaPrice.textContent = "$9.99";
     const pizzaImage = document.createElement("img");
-    pizzaImage.src = "../src/images/pizza.jpg";
+    pizzaImage.src = Pizza;
     pizzaImage.alt = "Pizza Image";
     pizzaDiv.appendChild(pizzaHeading);
     pizzaDiv.appendChild(pizzaDescription);
